@@ -1,0 +1,12 @@
+{
+    "web": {
+        "client_id": "217575872567-b9hhllg9dbdoa8ncu6cmqooedo4vvffk.apps.googleusercontent.com",
+        "project_id": "steady-library-346012",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_secret": "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",
+        "redirect_uris": [ "https://eyalrnis.mtacloud.co.il" ],
+        "javascript_origins": [ "https://eyalrnis.mtacloud.co.il" ]
+    }
+}
