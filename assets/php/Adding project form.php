@@ -125,10 +125,11 @@ $sql = "select Project_Name,Project_type,Delivery_Date,Contact_Name,Contact_PNum
 
 else
 {
-    echo '<script type="text/javascript">';
-    echo ' alert("The product doesnt exist or the quantity has not enough")';  //not showing an alert box.
-    echo '</script>'; 
-   header("location: ../../html/Adding project form.html"); 
+
+   echo '<script>
+    alert("The product does not exist or the quantity is not enough");
+    window.location.href="../../html/Adding project form.html";
+    </script>';
 
 }
 
